@@ -2,18 +2,25 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package tugaspraktikum9;
+package praktikum9;
 
 /**
  *
  * @author user
  */
 public class Main {
-    public static void main(String[] args) {
-        Hewan kucing = new Kucing();
-        Hewan anjing = new Anjing();
+    public static void main (String[] args){
+        Kendaraan mobil = new Mobil();
+        Kendaraan sepeda = new Sepeda();
+        Kendaraan motor = new Motor();
         
-        kucing.suara();
-        anjing.suara();
+        mobil.berjalan();
+        mobil.info();
+        
+        sepeda.berjalan();
+        sepeda.info();
+        
+        motor.berjalan();
+        motor.info();
     }
 }
